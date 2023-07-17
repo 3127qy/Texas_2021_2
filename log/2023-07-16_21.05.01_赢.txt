@@ -1,0 +1,804 @@
+----------- 第1局 ----------------
+message: preflop|SMALLBLIND|<1,12><1,2>
+phase: preflop
+op_action: ['None', 0]
+my_count: 0
+hand_cards: ['<1,12>', '<1,2>']
+HS:7
+myAction: call
+---
+message: raise 684
+op_action: ['raise', 685]
+my_count: 1
+hand_cards: ['<1,12>', '<1,2>']
+HS:7
+myAction: call
+---
+message: flop|<1,7><1,1><2,1>
+phase: flop
+message: raise 684
+op_action: ['raise', 685]
+op_raise_count : 1
+my_count: 0
+hand_cards: ['<1,12>', '<1,2>']
+board_cards: ['<1,7>', '<1,1>', '<2,1>']
+hand_type: 一对
+boardType : 一对
+HS:0.511094674556213
+is_big_bet_op: True
+big_bet: 4500
+regertSum: [  8850. -11930.   6195.]
+strategy: [0.58823529 0.         0.41176471]
+myAction: call
+---
+message: turn|<1,8>
+phase: turn
+message: raise 684
+op_action: ['raise', 685]
+op_raise_count : 2
+my_count: 0
+hand_cards: ['<1,12>', '<1,2>']
+board_cards: ['<1,7>', '<1,1>', '<2,1>', '<1,8>']
+hand_type: 同花
+boardType : 一对
+HS:0.9737569060773481
+is_big_bet_op: True
+big_bet: 4500
+regertSum: [ 201780.  153190. -198240.]
+strategy: [0.5684424 0.4315576 0.       ]
+myAction: call
+---
+message: river|<2,4>
+phase: river
+message: earnChips 2052
+alreadyWinChips :2052
+winNeedMinChips :3224
+opWinMinChips :7227
+----------- 第2局 ----------------
+message: preflop|BIGBLIND|<0,10><0,9>
+phase: preflop
+message: call
+op_action: ['call', 0]
+my_count: 0
+hand_cards: ['<0,10>', '<0,9>']
+HS:9
+MiddlePreflop!！！
+myAction: raise 201
+---
+message: raise 931
+op_action: ['raise', 932]
+my_count: 1
+hand_cards: ['<0,10>', '<0,9>']
+HS:9
+MiddlePreflop!！！
+myAction: call
+---
+message: flop|<3,1><2,10><2,9>
+phase: flop
+op_action: ['None', 0]
+my_count: 0
+hand_cards: ['<0,10>', '<0,9>']
+board_cards: ['<3,1>', '<2,10>', '<2,9>']
+hand_type: 两对
+boardType : 高牌
+HS:0.9935245143385754
+regertSum: [   5936.   11132. -150750.]
+strategy: [0.34778533 0.65221467 0.        ]
+myAction: raise 101
+---
+message: raise 202
+op_action: ['raise', 203]
+op_raise_count : 1
+my_count: 1
+hand_cards: ['<0,10>', '<0,9>']
+board_cards: ['<3,1>', '<2,10>', '<2,9>']
+hand_type: 两对
+boardType : 高牌
+HS:0.9906790945406125
+big_bet: 4500
+regertSum: [ 136125.   53122. -136730.]
+strategy: [0.71929806 0.28070194 0.        ]
+myAction: raise 3259
+---
+message: turn|<3,2>
+phase: turn
+op_action: ['None', 0]
+my_count: 0
+hand_cards: ['<0,10>', '<0,9>']
+board_cards: ['<3,1>', '<2,10>', '<2,9>', '<3,2>']
+hand_type: 两对
+boardType : 高牌
+HS:0.9861687413554634
+regertSum: [  116330.   120950. -1667720.]
+strategy: [0.49026467 0.50973533 0.        ]
+myAction: raise 101
+---
+message: raise 202
+op_action: ['raise', 203]
+op_raise_count : 2
+my_count: 1
+hand_cards: ['<0,10>', '<0,9>']
+board_cards: ['<3,1>', '<2,10>', '<2,9>', '<3,2>']
+hand_type: 两对
+boardType : 高牌
+HS:0.9865591397849462
+big_bet: 4500
+regertSum: [ 1894718.   108230. -1609798.]
+strategy: [0.94596465 0.05403535 0.        ]
+myAction: raise 3259
+---
+message: river|<3,8>
+phase: river
+op_action: ['None', 0]
+my_count: 0
+hand_cards: ['<0,10>', '<0,9>']
+board_cards: ['<3,1>', '<2,10>', '<2,9>', '<3,2>', '<3,8>']
+hand_type: 两对
+boardType : 高牌
+HS:0.8717146433041302
+regertSum: [  407540.   328342. -2942922.]
+strategy: [0.55381162 0.44618838 0.        ]
+myAction: raise 101
+---
+message: raise 7454
+op_action: ['raise', 7455]
+op_raise_count : 3
+my_count: 1
+hand_cards: ['<0,10>', '<0,9>']
+board_cards: ['<3,1>', '<2,10>', '<2,9>', '<3,2>', '<3,8>']
+hand_type: 两对
+boardType : 高牌
+HS:0.8736128236744759
+big_bet: 4500
+regertSum: [ 4157707.    52470. -4095028.]
+strategy: [0.98753734 0.01246266 0.        ]
+myAction: allin
+---
+message: earnChips 20000
+alreadyWinChips :22052
+winNeedMinChips :-16851
+opWinMinChips :27152
+----------- 第3局 ----------------
+message: oppo_hands|<1,12><1,8>
+message: preflop|SMALLBLIND|<2,4><2,0>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :22002
+winNeedMinChips :-16876
+opWinMinChips :27027
+----------- 第4局 ----------------
+message: preflop|BIGBLIND|<3,10><1,11>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :21902
+winNeedMinChips :-16851
+opWinMinChips :26852
+----------- 第5局 ----------------
+message: preflop|SMALLBLIND|<1,11><0,5>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :21852
+winNeedMinChips :-16876
+opWinMinChips :26727
+----------- 第6局 ----------------
+message: preflop|BIGBLIND|<0,9><3,6>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :21752
+winNeedMinChips :-16851
+opWinMinChips :26552
+----------- 第7局 ----------------
+message: preflop|SMALLBLIND|<2,11><1,10>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :21702
+winNeedMinChips :-16876
+opWinMinChips :26427
+----------- 第8局 ----------------
+message: preflop|BIGBLIND|<3,11><1,4>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :21602
+winNeedMinChips :-16851
+opWinMinChips :26252
+----------- 第9局 ----------------
+message: preflop|SMALLBLIND|<0,2><0,1>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :21552
+winNeedMinChips :-16876
+opWinMinChips :26127
+----------- 第10局 ----------------
+message: preflop|BIGBLIND|<0,10><3,3>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :21452
+winNeedMinChips :-16851
+opWinMinChips :25952
+----------- 第11局 ----------------
+message: preflop|SMALLBLIND|<3,11><1,10>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :21402
+winNeedMinChips :-16876
+opWinMinChips :25827
+----------- 第12局 ----------------
+message: preflop|BIGBLIND|<1,8><3,2>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :21302
+winNeedMinChips :-16851
+opWinMinChips :25652
+----------- 第13局 ----------------
+message: preflop|SMALLBLIND|<0,6><2,4>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :21252
+winNeedMinChips :-16876
+opWinMinChips :25527
+----------- 第14局 ----------------
+message: preflop|BIGBLIND|<1,0><3,0>
+phase: preflop
+message: earnChips 50
+alreadyWinChips :21302
+winNeedMinChips :-17001
+opWinMinChips :25502
+----------- 第15局 ----------------
+message: preflop|SMALLBLIND|<2,0><1,2>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :21252
+winNeedMinChips :-17026
+opWinMinChips :25377
+----------- 第16局 ----------------
+message: preflop|BIGBLIND|<3,10><1,3>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :21152
+winNeedMinChips :-17001
+opWinMinChips :25202
+----------- 第17局 ----------------
+message: preflop|SMALLBLIND|<0,10><0,0>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :21102
+winNeedMinChips :-17026
+opWinMinChips :25077
+----------- 第18局 ----------------
+message: preflop|BIGBLIND|<1,10><0,9>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :21002
+winNeedMinChips :-17001
+opWinMinChips :24902
+----------- 第19局 ----------------
+message: preflop|SMALLBLIND|<3,9><2,4>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :20952
+winNeedMinChips :-17026
+opWinMinChips :24777
+----------- 第20局 ----------------
+message: preflop|BIGBLIND|<1,5><2,9>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :20852
+winNeedMinChips :-17001
+opWinMinChips :24602
+----------- 第21局 ----------------
+message: preflop|SMALLBLIND|<3,5><3,10>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :20802
+winNeedMinChips :-17026
+opWinMinChips :24477
+----------- 第22局 ----------------
+message: preflop|BIGBLIND|<1,4><3,12>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :20702
+winNeedMinChips :-17001
+opWinMinChips :24302
+----------- 第23局 ----------------
+message: preflop|SMALLBLIND|<0,10><3,2>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :20652
+winNeedMinChips :-17026
+opWinMinChips :24177
+----------- 第24局 ----------------
+message: preflop|BIGBLIND|<3,1><3,12>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :20552
+winNeedMinChips :-17001
+opWinMinChips :24002
+----------- 第25局 ----------------
+message: preflop|SMALLBLIND|<1,0><1,1>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :20502
+winNeedMinChips :-17026
+opWinMinChips :23877
+----------- 第26局 ----------------
+message: preflop|BIGBLIND|<2,1><0,7>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :20402
+winNeedMinChips :-17001
+opWinMinChips :23702
+----------- 第27局 ----------------
+message: preflop|SMALLBLIND|<2,12><0,7>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :20352
+winNeedMinChips :-17026
+opWinMinChips :23577
+----------- 第28局 ----------------
+message: preflop|BIGBLIND|<1,1><3,11>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :20252
+winNeedMinChips :-17001
+opWinMinChips :23402
+----------- 第29局 ----------------
+message: preflop|SMALLBLIND|<0,8><0,2>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :20202
+winNeedMinChips :-17026
+opWinMinChips :23277
+----------- 第30局 ----------------
+message: preflop|BIGBLIND|<2,9><1,11>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :20102
+winNeedMinChips :-17001
+opWinMinChips :23102
+----------- 第31局 ----------------
+message: preflop|SMALLBLIND|<3,7><3,6>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :20052
+winNeedMinChips :-17026
+opWinMinChips :22977
+----------- 第32局 ----------------
+message: preflop|BIGBLIND|<2,9><2,1>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :19952
+winNeedMinChips :-17001
+opWinMinChips :22802
+----------- 第33局 ----------------
+message: preflop|SMALLBLIND|<2,4><2,5>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :19902
+winNeedMinChips :-17026
+opWinMinChips :22677
+----------- 第34局 ----------------
+message: preflop|BIGBLIND|<2,3><2,7>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :19802
+winNeedMinChips :-17001
+opWinMinChips :22502
+----------- 第35局 ----------------
+message: preflop|SMALLBLIND|<3,8><1,11>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :19752
+winNeedMinChips :-17026
+opWinMinChips :22377
+----------- 第36局 ----------------
+message: preflop|BIGBLIND|<1,11><0,9>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :19652
+winNeedMinChips :-17001
+opWinMinChips :22202
+----------- 第37局 ----------------
+message: preflop|SMALLBLIND|<2,9><3,11>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :19602
+winNeedMinChips :-17026
+opWinMinChips :22077
+----------- 第38局 ----------------
+message: preflop|BIGBLIND|<1,0><2,5>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :19502
+winNeedMinChips :-17001
+opWinMinChips :21902
+----------- 第39局 ----------------
+message: preflop|SMALLBLIND|<3,2><0,11>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :19452
+winNeedMinChips :-17026
+opWinMinChips :21777
+----------- 第40局 ----------------
+message: preflop|BIGBLIND|<3,7><0,4>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :19352
+winNeedMinChips :-17001
+opWinMinChips :21602
+----------- 第41局 ----------------
+message: preflop|SMALLBLIND|<3,8><2,0>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :19302
+winNeedMinChips :-17026
+opWinMinChips :21477
+----------- 第42局 ----------------
+message: preflop|BIGBLIND|<2,6><1,0>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :19202
+winNeedMinChips :-17001
+opWinMinChips :21302
+----------- 第43局 ----------------
+message: preflop|SMALLBLIND|<1,3><3,1>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :19152
+winNeedMinChips :-17026
+opWinMinChips :21177
+----------- 第44局 ----------------
+message: preflop|BIGBLIND|<0,11><1,4>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :19052
+winNeedMinChips :-17001
+opWinMinChips :21002
+----------- 第45局 ----------------
+message: preflop|SMALLBLIND|<2,10><2,12>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :19002
+winNeedMinChips :-17026
+opWinMinChips :20877
+----------- 第46局 ----------------
+message: preflop|BIGBLIND|<0,8><1,4>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :18902
+winNeedMinChips :-17001
+opWinMinChips :20702
+----------- 第47局 ----------------
+message: preflop|SMALLBLIND|<1,0><1,5>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :18852
+winNeedMinChips :-17026
+opWinMinChips :20577
+----------- 第48局 ----------------
+message: preflop|BIGBLIND|<1,6><0,6>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :18752
+winNeedMinChips :-17001
+opWinMinChips :20402
+----------- 第49局 ----------------
+message: preflop|SMALLBLIND|<0,0><0,9>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :18702
+winNeedMinChips :-17026
+opWinMinChips :20277
+----------- 第50局 ----------------
+message: preflop|BIGBLIND|<1,12><1,9>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :18602
+winNeedMinChips :-17001
+opWinMinChips :20102
+----------- 第51局 ----------------
+message: preflop|SMALLBLIND|<1,5><0,10>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :18552
+winNeedMinChips :-17026
+opWinMinChips :19977
+----------- 第52局 ----------------
+message: preflop|BIGBLIND|<3,7><3,8>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :18452
+winNeedMinChips :-17001
+opWinMinChips :19802
+----------- 第53局 ----------------
+message: preflop|SMALLBLIND|<2,5><2,9>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :18402
+winNeedMinChips :-17026
+opWinMinChips :19677
+----------- 第54局 ----------------
+message: preflop|BIGBLIND|<3,9><0,7>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :18302
+winNeedMinChips :-17001
+opWinMinChips :19502
+----------- 第55局 ----------------
+message: preflop|SMALLBLIND|<1,11><2,11>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :18252
+winNeedMinChips :-17026
+opWinMinChips :19377
+----------- 第56局 ----------------
+message: preflop|BIGBLIND|<2,7><0,11>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :18152
+winNeedMinChips :-17001
+opWinMinChips :19202
+----------- 第57局 ----------------
+message: preflop|SMALLBLIND|<1,11><0,11>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :18102
+winNeedMinChips :-17026
+opWinMinChips :19077
+----------- 第58局 ----------------
+message: preflop|BIGBLIND|<3,1><0,5>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :18002
+winNeedMinChips :-17001
+opWinMinChips :18902
+----------- 第59局 ----------------
+message: preflop|SMALLBLIND|<1,0><3,12>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :17952
+winNeedMinChips :-17026
+opWinMinChips :18777
+----------- 第60局 ----------------
+message: preflop|BIGBLIND|<3,8><0,1>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :17852
+winNeedMinChips :-17001
+opWinMinChips :18602
+----------- 第61局 ----------------
+message: preflop|SMALLBLIND|<2,1><0,4>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :17802
+winNeedMinChips :-17026
+opWinMinChips :18477
+----------- 第62局 ----------------
+message: preflop|BIGBLIND|<2,1><2,9>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :17702
+winNeedMinChips :-17001
+opWinMinChips :18302
+----------- 第63局 ----------------
+message: preflop|SMALLBLIND|<3,12><2,8>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :17652
+winNeedMinChips :-17026
+opWinMinChips :18177
+----------- 第64局 ----------------
+message: preflop|BIGBLIND|<1,0><3,4>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :17552
+winNeedMinChips :-17001
+opWinMinChips :18002
+----------- 第65局 ----------------
+message: preflop|SMALLBLIND|<2,3><0,3>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :17502
+winNeedMinChips :-17026
+opWinMinChips :17877
+----------- 第66局 ----------------
+message: preflop|BIGBLIND|<1,8><1,12>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :17402
+winNeedMinChips :-17001
+opWinMinChips :17702
+----------- 第67局 ----------------
+message: preflop|SMALLBLIND|<0,2><0,3>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :17352
+winNeedMinChips :-17026
+opWinMinChips :17577
+----------- 第68局 ----------------
+message: preflop|BIGBLIND|<0,3><1,1>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :17252
+winNeedMinChips :-17001
+opWinMinChips :17402
+----------- 第69局 ----------------
+message: preflop|SMALLBLIND|<3,12><1,3>
+phase: preflop
+op_action: ['None', 0]
+Already Win!!!!
+message: earnChips -50
+alreadyWinChips :17202
+winNeedMinChips :-17026
+opWinMinChips :17277
+----------- 第70局 ----------------
+message: preflop|BIGBLIND|<2,9><2,12>
+phase: preflop
+message: call
+op_action: ['call', 0]
+Already Win!!!!
+message: earnChips -100
+alreadyWinChips :17102
+winNeedMinChips :-17001
+opWinMinChips :17102
